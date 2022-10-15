@@ -1,0 +1,6 @@
+linux-android-xiaomi-onclite (0.0.0+git20210717214024.4d82a62.halium.9.0) halium-9.0; urgency=medium
+
+  * ubports_defconfig: enable extra binder devices
+
+ -- TheKit <nekit1000@gmail.com>  Sun, 18 Jul 2021 00:40:24 +0300
+
