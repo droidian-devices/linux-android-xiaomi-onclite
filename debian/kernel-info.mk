@@ -11,7 +11,7 @@ VARIANT = android
 KERNEL_BASE_VERSION = 4.9.214
 
 # The kernel cmdline to use
-KERNEL_BOOTIMAGE_CMDLINE = console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_serial_dm,0x78af000 firmware_class.path=/vendor/firmware_mnt/image androidboot.usbconfigfs=true loop.max_part=7 apparmor=1 security=apparmor console=tty0
+KERNEL_BOOTIMAGE_CMDLINE = console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_serial_dm,0x78af000 firmware_class.path=/vendor/firmware_mnt/image androidboot.usbconfigfs=true loop.max_part=7 apparmor=1 security=apparmor console=tty0 droidian.lvm.prefer
 
 # Slug for the device vendor. This is going to be used in the KERNELRELASE
 # and package names.
@@ -144,7 +144,7 @@ FLASH_INFO_MODEL = Redmi 7
 FLASH_INFO_CPU = Qualcomm Technologies, Inc SDM632
 
 # Space-separated list of supported device ids as reported by fastboot
-FLASH_INFO_DEVICE_IDS = onclite
+FLASH_INFO_DEVICE_IDS = onclite onc
 
 ########################################################################
 # Kernel build settings
