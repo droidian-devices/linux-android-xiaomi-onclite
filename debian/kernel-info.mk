@@ -43,15 +43,15 @@ KERNEL_CONFIG_USE_DIFFCONFIG = 0
 KERNEL_DEFCONFIG = ubports_defconfig
 
 # Whether to include DTBs with the image. Use 0 (no) or 1.
-KERNEL_IMAGE_WITH_DTB = 1
+KERNEL_IMAGE_WITH_DTB = 0
 
 # Path to the DTB
 # If you leave this undefined, an attempt to find it automatically
 # will be made.
-KERNEL_IMAGE_DTB = arch/arm64/boot/dts/qcom/sdm632.dtb
+# KERNEL_IMAGE_DTB = arch/arm64/boot/dts/qcom/sdm632.dtb
 
 # Whether to include a DTB Overlay. Use 0 (no) or 1.
-KERNEL_IMAGE_WITH_DTB_OVERLAY = 1
+KERNEL_IMAGE_WITH_DTB_OVERLAY = 0
 
 # Path to the DTB overlay.
 # If you leave this undefined, an attempt to find it automatically
@@ -183,4 +183,4 @@ DEB_BUILD_FOR = arm64
 KERNEL_ARCH = arm64
 
 # Kernel target to build
-KERNEL_BUILD_TARGET = Image.gz
+KERNEL_BUILD_TARGET = Image.gz-dtb
