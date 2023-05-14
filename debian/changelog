@@ -1,4 +1,4 @@
-linux-android-xiaomi-onclite (0.0.0+git20210717214024.4d82a62.halium.9.0+git20230214122420.ef3b270.main) main; urgency=medium
+linux-android-xiaomi-onclite (0.0.0+git20210717214024.4d82a62.halium.9.0+git20230214122420.ef3b270.main+git20230318233813.8d724d7.main) main; urgency=medium
 
   [ Bardia Moshiri ]
   * add debian files and yylloc fix
@@ -6,6 +6,7 @@ linux-android-xiaomi-onclite (0.0.0+git20210717214024.4d82a62.halium.9.0+git2023
   * specify the dtb don't fallback to auto search
   * rebranding
   * Update ubports_defconfig
+  * build against Image.gz-dtb
 
   [ TheKit ]
   * techpack/audio/asoc/codecs: fix compilation with clang
@@ -36473,5 +36474,5 @@ linux-android-xiaomi-onclite (0.0.0+git20210717214024.4d82a62.halium.9.0+git2023
   [ Git User ]
   * Initial empty repository
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Tue, 14 Feb 2023 15:42:20 +0318
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Sat, 18 Mar 2023 19:38:13 -0400
 
